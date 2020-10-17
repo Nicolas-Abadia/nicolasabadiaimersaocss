@@ -1,21 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Nicolas Abadia'site</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolas Abadia'site</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Press+Start+2P&family=Source+Code+Pro:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/01b872df61.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <h1 class="site-title">Nicolas Abadia Pinheiro</h1>
-        <h2 class="site-subtitle">web developer</h2>
-    </header>
+  <header>
+    <nav class="menu">
+      <ul class="container">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portifolio">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="titulo">
+      <h1 class="site-title">Nicolas Abadia Pinheiro</h1>
+      <h2 class="site-subtitle">Character Design</h2>
+    </div>
+
+  </header>
+  <section class="sobre container">
+    <h2>Sobre</h2>
+
+    <figure class="avatar">
+      <img src="https://pm1.narvii.com/6547/bb03d067afef52135ee3ac7459fb9537c09b34b1_00.jpg" alt="Eu">
+    </figure>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati, non nemo animi totam illum temporibus
+      exercitationem, assumenda commodi sit laborum magni doloremque, error sequi mollitia molestias eos libero
+      cupiditate.
+    </p>
+    <p>
+      Recusandae nobis nisi omnis veritatis maiores voluptate itaque at eius inventore quibusdam similique, quas ab,
+      earum iusto distinctio cupiditate adipisci autem accusamus vero quae aliquid ipsa placeat optio. Culpa, fugiat!
+    </p>
+    <p>
+      Este site foi produzido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da alura</a>
+    </p>
+  </section>
+  <section class="portifolio container" id="portifolio">
+    <h2>Projetos</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/Baiacu industrial.png" alt="Print">
+          <figcaption>Print</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/CAT IN OFFICE.png" alt=">Personagem">
+          <figcaption>Personagem</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/Cocept SlimePang.png" alt="Design">
+          <figcaption>Concept Design</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/Velho ansião vovo 2.png" alt="Personagem2">
+          <figcaption>Personagem</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/Slime Pang 3.jpg" alt="Concept">
+          <figcaption>Concept Design</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </section>
+  <section class="contato container" id="contato">
+    <h2>Contato</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://github.com/Nicolas-Abadia">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="_blank" href="https://twitter.com/TinTin_one">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a target="_blank" href="https://www.artstation.com/godimatilu">
+        <i class="fab fa-artstation"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/gogimatilu/?hl=pt-br">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+
 </body>
+
 </html>
